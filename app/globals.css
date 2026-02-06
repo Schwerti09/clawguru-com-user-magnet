@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body { @apply bg-ink-950 text-gray-100 antialiased; }
+
+a { @apply text-gray-100 hover:text-brand-cyan transition-colors; }
+
+.prose a { @apply text-brand-cyan; }
